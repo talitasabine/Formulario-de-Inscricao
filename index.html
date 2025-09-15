@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Formulário de Inscrição</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>@import url("styles.css/styles.css");</style>
+</head>
+<body>
+    <header> 
+        <h1>Formulário de Inscrição</h1>
+        <p>Preencha o formulário abaixo para participar da aula remota de Programação Web: </p>
+    </header>
+     <section>
+        <form action="#" method="post">
+                <div>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" placeholder="Insira seu nome completo" required><br><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="seuemail@exemplo.com" required><br><br>
+                    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" placeholder="(11) 99999-9999" required><br><br>
+                    
+                    <label for="tipo">Tipo de Inscrição:</label>
+                    <select id="tipo">
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="Palestrante">Palestrante</option>
+                        <option value="Participante">Participante</option>
+                        <option value="Voluntário">Voluntário</option>
+                    </select><br><br>
+                    <div>
+                        <label for="data">Data de Nascimento</label>
+                        <input type="date" name="data" required>
+                    </div><br>
+                    <div>
+                        <p>Gênero</p>
+                        <label>
+                            <input type="radio" name="gênero" value="feminimo">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="gênero" value="masculino">Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="gênero" value="prefiro não responder">Prefiro não responder
+                        </label><br><br>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="Mensagem" name="mensagem" maxlength="200" rows="4" cols="20"></textarea><br><br>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar Inscrição</button>
+                        <button type="reset">Limpar Forumlário</button>
+                    </div>
+                </div>
+            </form>
+     </section><br><br>
+     
+    <footer>
+        <p>&copy; 2025 Atividade de PW - Desenvolvido por Talita Sabine</p>
+    </footer>
+</body>
+</html>
