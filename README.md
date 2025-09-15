@@ -27,5 +27,4 @@
 
 
 O projeto está hospedado no GitHub Pages e pode ser acessado aqui:
-Link para o projeto:
 (https://talitasabine.github.io/Formulario-de-Inscricao/)
